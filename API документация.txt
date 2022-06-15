@@ -1,9 +1,20 @@
-API-документация к компоненту Flash.
+API-ДОКУМЕНТАЦИЯ К КОМПОНЕНТУ FLASH
+
+Подключение:
+
+require_once('Flash.php');
 
 Экземпляр класса Flash создается без конструктора:
 
 $flash = new Flash();
 
 У компонента два метода:
+
 setFlashMessage($name, $message) - подготавливает флеш-сообщение;
 displayFlashMessage($name) - выводит флеш-сообщение.
+
+Использование:
+
+$flash->setFlashMessage('success', 'some success message');
+$flash->displayFlashMessage('success');
+
