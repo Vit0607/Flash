@@ -1,0 +1,9 @@
+API-документация к компоненту Flash.
+
+Экземпляр класса Flash создается без конструктора:
+
+$flash = new Flash();
+
+У компонента два метода:
+setFlashMessage($name, $message) - подготавливает флеш-сообщение;
+displayFlashMessage($name) - выводит флеш-сообщение.
